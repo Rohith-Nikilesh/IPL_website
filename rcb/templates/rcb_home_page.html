@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RCB - Play Bold Fan Page</title>
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: 'Oswald', sans-serif; /* A bold, sporty font */
+            background: linear-gradient(135deg, #000000 0%, #2b2b2b 100%); /* Sleek Black Gradient */
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        /* Header Styling */
+        h1 {
+            font-size: 3.5rem;
+            color: #ec1c24; /* Signature RCB Red */
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+            border-bottom: 4px solid #d1ab3e; /* Gold underline */
+            padding-bottom: 10px;
+        }
+
+        /* Button Styling */
+        .btn-csk {
+            background-color: #fdb913; /* CSK Yellow */
+            color: #004ba0; /* CSK Blue text */
+            border: none;
+            padding: 18px 45px;
+            font-size: 1.3rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            border-radius: 0; /* Sharp edges for a bold look */
+            cursor: pointer;
+            transition: all 0.4s ease;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 30px;
+            clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%); /* Stylized slanted edges */
+        }
+
+        /* Hover Effects */
+        .btn-csk:hover {
+            background-color: #ffffff;
+            color: #fdb913;
+            transform: skewX(-5deg) scale(1.05);
+            box-shadow: 10px 10px 0px #ec1c24;
+        }
+
+        /* Slogan Styling */
+        .slogan {
+            color: #d1ab3e; /* Gold */
+            font-weight: bold;
+            margin-top: 15px;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to RCB Page</h1>
+    <div class="slogan">PLAY BOLD 🏏</div>
+    
+    <a href="http://127.0.0.1:8000/csk/">
+        <button class="btn-csk">Switch to CSK</button>
+    </a>
+
+</body>
+</html>
